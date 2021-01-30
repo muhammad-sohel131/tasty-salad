@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Add Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Add Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Scroll Top -->
+    <a href = "#home" class="scrollTop" id="scrollTop">
+        <i class='bx bxs-chevron-up' ></i>
+    </a>
+
+    <!-- Header Section Start -->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#home" class="nav_logo nav_link">Tasty</a>
+
+            <div class="nav_menu" id="nav_menu">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#home" class="nav_link  active-link">Home</a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+                    <li class="nav_item"><a href="#services" class="nav_link">Services</a></li>
+                    <li class="nav_item"><a href="#menu" class="nav_link">Menu</a></li>
+                    <li class="nav_item"><a href="#contact" class="nav_link">Contact Us</a></li>
+
+                    <li><i class="bx bx-moon change_theme" id = "change_theme"></i></li>
+                </ul>
+            </div>
+
+            <div class="nav_toggle" id="nav_toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+    <!-- Header Section End -->
+
+
+
+    <!-- Main Start -->
+    <main class="l-main">
+        <!-- Home -->
+        <section class="home" id="home">
+            <div class="home_container bd-container bd-grid">
+                <div class="home_data">
+                    <h1 class="home_title">Tasty food</h1>
+                    <h2 class="home_subtitle">Try the best food of<br/>the week.</h2>
+                    <a href="#" class="button">View Menu</a>
+                </div>
+                <img class="home_img" src="img/photo-1592578630143-fac65cda7a67.jpg" alt="">
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="about section bd-container" id="about">
+            <div class="about_container bd-grid">
+                <div class="about_data">
+                    <span class="section-subtitle about_initial">About us</span>
+                    <h2 class="section-title about_initial">We cook the best <br/> tasty food</h2>
+                    <p class="about_description">We cook the best food in the Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, sapiente.</p>
+                    <a href="#" class="button">Explore history</a>
+                </div>
+                <img src="img/brackfast3.jpg" alt="" class="about_img">
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section class="services section bd-container" id="services">
+            <span class="section-subtitle">Offering</span>
+            <h2 class="section-title">our amazing services</h2>
+            <div class="services_container bd-grid">
+                <div class="services_content">
+                    <img class = "services_img" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNDgwIDQ4MCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDgwIDQ4MDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwYXRoIGQ9Ik0zMzkuOTA0LDE2MS43NzZsLTUuMTM2LTE2LjkwNGMtNi41MjQtMTkuMjAyLTI3LjM3OS0yOS40NzktNDYuNTgxLTIyLjk1NWMtMTAuODAyLDMuNjctMTkuMjg1LDEyLjE1My0yMi45NTUsMjIuOTU1DQoJCQlsLTUuMTM2LDE2LjkwNGMtNC4zMjIsMTQuMjU2LTUuMjI5LDI5LjMyOS0yLjY0OCw0NGMyLjM1NCwxMi4zNTIsMTAuMTk2LDIyLjk2NCwyMS4zMTIsMjguODRMMjczLjAwOCwzNjMuMg0KCQkJYy0wLjc3LDcuMTc3LDEuNTU4LDE0LjM0Miw2LjQsMTkuNjk2YzEwLjQxMywxMS4zOSwyOC4wODksMTIuMTgyLDM5LjQ3OSwxLjc2OWMwLjYxNi0wLjU2MywxLjIwNi0xLjE1MywxLjc2OS0xLjc2OQ0KCQkJYzQuNzM0LTUuMjAyLDcuMDU4LTEyLjE1Nyw2LjQtMTkuMTZMMzIxLjI3MiwyMzQuNmMxMS4xMDEtNS44NzksMTguOTMtMTYuNDg0LDIxLjI4LTI4LjgyNA0KCQkJQzM0NS4xMzMsMTkxLjEwNSwzNDQuMjI2LDE3Ni4wMzIsMzM5LjkwNCwxNjEuNzc2eiBNMzI2Ljc5MiwyMDIuOTkyYy0xLjczMiw4Ljg3NC04LjA1NiwxNi4xNTUtMTYuNiwxOS4xMTINCgkJCWMtMy4yNDMsMS4yMTktNS4zMzIsNC4zODctNS4xNzYsNy44NDhMMzExLjA5NiwzNjVjMC4yOCwyLjY0OS0wLjU5NCw1LjI5LTIuNCw3LjI0OGMtNC44MTcsNC43NjktMTIuNTc1LDQuNzY5LTE3LjM5MiwwDQoJCQljLTEuODk2LTIuMTE2LTIuNzU3LTQuOTY0LTIuMzUyLTcuNzc2bDYuMDMyLTEzNC41MmMwLjE1Ni0zLjQ2MS0xLjkzMy02LjYyOS01LjE3Ni03Ljg0OGMtOC41NDQtMi45NTctMTQuODY4LTEwLjIzOC0xNi42LTE5LjExMg0KCQkJYy0yLjE0LTEyLjE4LTEuMzg2LTI0LjY5MywyLjItMzYuNTI4bDUuMTM2LTE2LjkxMmMzLjk3NC0xMC43NDUsMTUuOTA2LTE2LjIzNCwyNi42NTItMTIuMjZjNS42ODEsMi4xMDEsMTAuMTU5LDYuNTgsMTIuMjYsMTIuMjYNCgkJCWw1LjEzNiwxNi45MTJDMzI4LjE3NCwxNzguMywzMjguOTI4LDE5MC44MTIsMzI2Ljc5MiwyMDIuOTkyeiIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KCTxnPg0KCQk8cGF0aCBkPSJNMjE2LDEyMGMtNC40MTgsMC04LDMuNTgyLTgsOHY2OC42ODhsLTIxLjY1NiwyMS42NTZjLTEuNjAyLDEuNTk2LTIuNDU0LDMuNzk3LTIuMzQ0LDYuMDU2bDcsMTQwDQoJCQljMC4xNjcsMy4wMTktMC45MjksNS45NzItMy4wMjQsOC4xNTJjLTQuMzc5LDQuNDE4LTExLjUxMSw0LjQ1LTE1LjkzLDAuMDdjLTAuMDI0LTAuMDIzLTAuMDQ3LTAuMDQ3LTAuMDctMC4wNw0KCQkJYy0yLjA5Ni0yLjE4LTMuMTkxLTUuMTMzLTMuMDI0LTguMTUybDcuMDQ4LTE0MGMwLjExMi0yLjI1OC0wLjczNy00LjQ1OC0yLjMzNi02LjA1NkwxNTIsMTk2LjY4OFYxMjhjMC00LjQxOC0zLjU4Mi04LTgtOA0KCQkJcy04LDMuNTgyLTgsOHY3MmMwLDIuMTIyLDAuODQ0LDQuMTU2LDIuMzQ0LDUuNjU2bDIxLjQ4OCwyMS40OTZsLTYuODI0LDEzNi40NzJjLTAuNzI2LDE0LjkwNywxMC43NywyNy41ODEsMjUuNjc3LDI4LjMwNw0KCQkJYzE0LjkwNywwLjcyNiwyNy41ODEtMTAuNzcsMjguMzA3LTI1LjY3N2MwLjA0My0wLjg3NiwwLjA0My0xLjc1MywwLTIuNjI5bC02LjgyNC0xMzYuNDcybDIxLjQ4OC0yMS40OTYNCgkJCWMxLjUtMS41LDIuMzQ0LTMuNTM0LDIuMzQ0LTUuNjU2di03MkMyMjQsMTIzLjU4MiwyMjAuNDE4LDEyMCwyMTYsMTIweiIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KCTxnPg0KCQk8cGF0aCBkPSJNMTY4LDEyMGMtNC40MTgsMC04LDMuNTgyLTgsOHY2NGMwLDQuNDE4LDMuNTgyLDgsOCw4czgtMy41ODIsOC04di02NEMxNzYsMTIzLjU4MiwxNzIuNDE4LDEyMCwxNjgsMTIweiIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KCTxnPg0KCQk8cGF0aCBkPSJNMTkyLDEyMGMtNC40MTgsMC04LDMuNTgyLTgsOHY2NGMwLDQuNDE4LDMuNTgyLDgsOCw4czgtMy41ODIsOC04di02NEMyMDAsMTIzLjU4MiwxOTYuNDE4LDEyMCwxOTIsMTIweiIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KCTxnPg0KCQk8cGF0aCBkPSJNMjQwLDBDMTA3LjQ1MiwwLDAsMTA3LjQ1MiwwLDI0MHMxMDcuNDUyLDI0MCwyNDAsMjQwczI0MC0xMDcuNDUyLDI0MC0yNDBDNDc5Ljg1LDEwNy41MTQsMzcyLjQ4NiwwLjE1LDI0MCwweiBNMjQwLDQ2NA0KCQkJQzExNi4yODgsNDY0LDE2LDM2My43MTIsMTYsMjQwUzExNi4yODgsMTYsMjQwLDE2czIyNCwxMDAuMjg4LDIyNCwyMjRDNDYzLjg1OSwzNjMuNjUzLDM2My42NTMsNDYzLjg1OSwyNDAsNDY0eiIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KCTxnPg0KCQk8cGF0aCBkPSJNMjY1Ljk2OSwzOTAuMTcyYy0wLjQyOS00LjM5Ny00LjM0Mi03LjYxNC04Ljc0LTcuMTg1Yy0wLjEwMywwLjAxLTAuMjA2LDAuMDIyLTAuMzA5LDAuMDM2bDAuMDMyLTAuMDA4DQoJCQljLTExLjI2MywxLjMwOC0yMi42NDEsMS4zMDgtMzMuOTA0LDBjLTQuMzktMC41MTUtOC4zNjUsMi42MjYtOC44OCw3LjAxNmMtMC41MTUsNC4zOSwyLjYyNiw4LjM2NSw3LjAxNiw4Ljg4DQoJCQljMTIuNDkxLDEuNDU5LDI1LjEwOSwxLjQ1OSwzNy42LDBDMjYzLjE4MSwzOTguNDgzLDI2Ni4zOTgsMzk0LjU3LDI2NS45NjksMzkwLjE3MnoiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCgk8Zz4NCgkJPHBhdGggZD0iTTM2Mi40LDEzNi45MTJjLTIuODM5LTMuMzg1LTcuODg1LTMuODI4LTExLjI3LTAuOTg4Yy0wLjAxMSwwLjAwOS0wLjAyMiwwLjAxOS0wLjAzNCwwLjAyOA0KCQkJYy0zLjM3NywyLjg0OC0zLjgwNyw3Ljg5NC0wLjk2LDExLjI3MmM0OC4yMzUsNTcuMjYsNDQuNTQ1LDE0MS45MjktOC40ODgsMTk0Ljc3NmMtMy4xMywzLjExOS0zLjEzOSw4LjE4Ni0wLjAyLDExLjMxNg0KCQkJYzMuMTE5LDMuMTMsOC4xODYsMy4xMzksMTEuMzE2LDAuMDJDNDExLjg4MSwyOTQuNjIzLDQxNS45OTEsMjAwLjU0MSwzNjIuNCwxMzYuOTEyeiIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KCTxnPg0KCQk8Zz4NCgkJCTxwYXRoIGQ9Ik0xODYuMzkyLDEwNS43NDRjLTAuMDA1LDAtMC4wMS0wLjAwMS0wLjAxNS0wLjAwMWMtMC4wMDgsMC0wLjAxNiwwLjAwMS0wLjAyNSwwLjAwMUgxODYuMzkyeiIvPg0KCQkJPHBhdGggZD0iTTI3Ny43MzYsODQuNDcyYy0zMS4yNjUtNy40OTMtNjQuMDU1LTUuNDc5LTk0LjE2OCw1Ljc4NGMtNC4xMzYsMS41NTUtNi4yMjcsNi4xNjktNC42NzIsMTAuMzA0DQoJCQkJYzEuMTcyLDMuMTE3LDQuMTUyLDUuMTgsNy40ODEsNS4xODNjMC45NTctMC4wMDUsMS45MDUtMC4xOCwyLjc5OS0wLjUxOWMyNy4xMTgtMTAuMTQxLDU2LjY0Ni0xMS45NTIsODQuOC01LjINCgkJCQljNC4yOTUsMS4wMzgsOC42MTgtMS42MDEsOS42NTYtNS44OTZDMjg0LjY3LDg5LjgzMywyODIuMDMxLDg1LjUxLDI3Ny43MzYsODQuNDcyeiIvPg0KCQk8L2c+DQoJPC9nPg0KPC9nPg0KPGc+DQoJPGc+DQoJCTxwYXRoIGQ9Ik0xMzcuOTkyLDM0MS42QzExMS4wMjMsMzE0LjY3Nyw5NS45MDgsMjc4LjEwOCw5NiwyNDBjLTAuMDc5LTMwLjQ0Niw5LjU2NS02MC4xMjIsMjcuNTI4LTg0LjcwNA0KCQkJYzIuNjU1LTMuNTMyLDEuOTQ0LTguNTQ3LTEuNTg4LTExLjIwMnMtOC41NDctMS45NDQtMTEuMjAyLDEuNTg4Yy0wLjA0NywwLjA2My0wLjA5MywwLjEyNi0wLjEzOCwwLjE5DQoJCQljLTQ2LjI1Myw2My41ODgtMzkuNDQ3LDE1MS4zNTksMTYuMDU2LDIwNy4wNTZjMy4xMjgsMy4xMyw4LjIwMiwzLjEzMiwxMS4zMzIsMC4wMDRDMTQxLjExOCwzNDkuODA0LDE0MS4xMiwzNDQuNzMsMTM3Ljk5MiwzNDEuNg0KCQkJeiIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K" />
+                    <h3 class="services_title">Excellent food</h3>
+                    <p class="services_description">We offer Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste perspiciatis corporis, iusto aliquam vero dicta!</p>
+                </div>
+                <div class="services_content">
+                    <img class = "services_img" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTExLjk5OSA1MTEuOTk5IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTEuOTk5IDUxMS45OTk7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxnPg0KCQk8cGF0aCBkPSJNNDEzLjk0OSwxNTUuNTgzYy0wLjQ2LTAuNDYtMC45Ny0wLjg3LTEuNTItMS4yNGMtMC41NC0wLjM2LTEuMTItMC42Ny0xLjcyLTAuOTJjLTAuNjEtMC4yNS0xLjI0LTAuNDQtMS44Ny0wLjU3DQoJCQljLTMuMjUtMC42Ni02LjcwMSwwLjQxLTkuMDMsMi43M2MtMS44NiwxLjg3LTIuOTMsNC40NC0yLjkzLDcuMDdjMCwwLjY2LDAuMDcsMS4zMSwwLjIsMS45NmMwLjEzLDAuNjQsMC4zMiwxLjI3LDAuNTcsMS44Nw0KCQkJYzAuMjUsMC42LDAuNTYsMS4xOCwwLjkyLDEuNzNjMC4zNiwwLjU0LDAuNzc5LDEuMDUsMS4yNCwxLjUyYzEuODYsMS44Niw0LjQ0LDIuOTMsNy4wNywyLjkzYzAuNjUsMCwxLjMxLTAuMDcsMS45Ni0wLjINCgkJCWMwLjYzLTAuMTMsMS4yNi0wLjMyLDEuODctMC41N2MwLjYtMC4yNSwxLjE4LTAuNTYsMS43Mi0wLjkyYzAuNTUtMC4zNywxLjA2LTAuNzgsMS41Mi0xLjI0YzAuNDctMC40NywwLjg4LTAuOTgsMS4yNS0xLjUyDQoJCQljMC4zNjEtMC41NSwwLjY3LTEuMTMsMC45Mi0xLjczYzAuMjUtMC42LDAuNDQtMS4yMywwLjU3LTEuODdjMC4xMy0wLjY1LDAuMTktMS4zLDAuMTktMS45Ng0KCQkJQzQxNi44NzksMTYwLjAyNSw0MTUuODE5LDE1Ny40NDQsNDEzLjk0OSwxNTUuNTgzeiIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KCTxnPg0KCQk8cGF0aCBkPSJNMTE1LjI4OSwzODUuODczYy0wLjEyLTAuNjQtMC4zMi0xLjI3LTAuNTctMS44N2MtMC4yNS0wLjYtMC41NS0xLjE4LTAuOTEtMS43M2MtMC4zNy0wLjU0LTAuNzktMS4wNi0xLjI1LTEuNTINCgkJCWMtMC40Ni0wLjQ2LTAuOTctMC44OC0xLjUyLTEuMjRjLTAuNTQtMC4zNi0xLjEyLTAuNjctMS43Mi0wLjkyYy0wLjYxLTAuMjUtMS4yNC0wLjQ0LTEuODgtMC41N2MtMS4yOS0wLjI2LTIuNjEtMC4yNi0zLjksMA0KCQkJYy0wLjY0LDAuMTMtMS4yNywwLjMyLTEuODcsMC41N2MtMC42MSwwLjI1LTEuMTksMC41Ni0xLjczLDAuOTJjLTAuNTUsMC4zNi0xLjA2LDAuNzgtMS41MiwxLjI0Yy0wLjQ2LDAuNDYtMC44OCwwLjk4LTEuMjQsMS41Mg0KCQkJYy0wLjM2LDAuNTUtMC42NywxLjEzLTAuOTIsMS43M2MtMC4yNSwwLjYtMC40NSwxLjIzLTAuNTcsMS44N2MtMC4xMywwLjY1MS0wLjIsMS4zLTAuMiwxLjk2YzAsMC42NSwwLjA3LDEuMywwLjIsMS45NQ0KCQkJYzAuMTIsMC42NCwwLjMyLDEuMjcsMC41NywxLjg3YzAuMjUsMC42LDAuNTYsMS4xOCwwLjkyLDEuNzNjMC4zNiwwLjU0LDAuNzgsMS4wNiwxLjI0LDEuNTJjMC40NiwwLjQ2LDAuOTcsMC44OCwxLjUyLDEuMjQNCgkJCWMwLjU0LDAuMzYsMS4xMiwwLjY3LDEuNzMsMC45MmMwLjYsMC4yNSwxLjIzLDAuNDQsMS44NywwLjU3czEuMywwLjIsMS45NSwwLjJjMC42NSwwLDEuMzEtMC4wNywxLjk1LTAuMg0KCQkJYzAuNjQtMC4xMywxLjI3LTAuMzIsMS44OC0wLjU3YzAuNi0wLjI1LDEuMTgtMC41NiwxLjcyLTAuOTJjMC41NS0wLjM2LDEuMDU5LTAuNzgsMS41Mi0xLjI0YzAuNDYtMC40NiwwLjg4LTAuOTgsMS4yNS0xLjUyDQoJCQljMC4zNi0wLjU1LDAuNjYtMS4xMywwLjkxLTEuNzNjMC4yNS0wLjYsMC40NS0xLjIzLDAuNTctMS44N2MwLjEzLTAuNjUsMC4yLTEuMywwLjItMS45NQ0KCQkJQzExNS40ODksMzg3LjE3MywxMTUuNDE5LDM4Ni41MjMsMTE1LjI4OSwzODUuODczeiIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KCTxnPg0KCQk8cGF0aCBkPSJNNTExLjk5OSwyMjIuNzI2YzAtMTQuMjE1LTkuMjI4LTI2LjMxNS0yMi4wMDctMzAuNjI0Yy0xLjYyOC03NC4xNTUtNjIuNDU2LTEzMy45NzgtMTM2Ljk5NC0xMzMuOTc4SDE1OS4wMDINCgkJCWMtNzQuNTM4LDAtMTM1LjM2Niw1OS44MjMtMTM2Ljk5NCwxMzMuOTc4QzkuMjI4LDE5Ni40MTEsMCwyMDguNTEsMCwyMjIuNzI2YzAsNS40MjksMS4zODYsMTAuNjI2LDMuODQ3LDE1LjIwMw0KCQkJYy0wLjUyOCwyLjc2Ny0wLjc5NSw1LjU4NS0wLjc5NSw4LjQyN3YwLjcwOGMwLDE0LjA2LDYuNTE5LDI2LjYyNSwxNi42OTMsMzQuODMzYy0xMC4xNzgsOC4yNzUtMTYuNjkzLDIwLjg5MS0xNi42OTMsMzUuMDAxDQoJCQljMCwxNS4xMTQsNy40NzUsMjguNTE1LDE4LjkyMSwzNi43MDJ2MjYuNjY4YzAsNDAuNTg4LDMzLjAyMSw3My42MDgsNzMuNjA4LDczLjYwOGgzMjAuODM2YzQwLjU4OCwwLDczLjYwOC0zMy4wMjEsNzMuNjA4LTczLjYwOA0KCQkJdi0yNi42NjhjMTEuNDQ2LTguMTg2LDE4LjkyMS0yMS41ODcsMTguOTIxLTM2LjcwMmMwLTEzLjg1Mi02LjM1NC0yNi4zODUtMTYuMzYxLTM0LjcwMmM5Ljk4My04LjIxMiwxNi4zNjEtMjAuNjU2LDE2LjM2MS0zNC41NjINCgkJCXYtMC43MDhjMC0yLjk4NS0wLjI5NC01Ljk0NC0wLjg3Ny04Ljg0NUM1MTAuNTgyLDIzMy40NjYsNTExLjk5OSwyMjguMjE0LDUxMS45OTksMjIyLjcyNnogTTQ0LjAzMywxNzMuMjI5aDMyMi40NDENCgkJCWM1LjUyMywwLDEwLTQuNDc3LDEwLTEwYzAtNS41MjMtNC40NzctMTAtMTAtMTBINDkuNzM3YzE2Ljg5Ni00My44ODMsNTkuNTAzLTc1LjEwNiwxMDkuMjY1LTc1LjEwNmgxOTMuOTk2DQoJCQljNjIuOTQyLDAsMTE0LjQzOCw0OS45NTMsMTE2LjkzNCwxMTIuMjk1SDQyLjA2OEM0Mi4zMDIsMTg0LjU3LDQyLjk2OCwxNzguODMsNDQuMDMzLDE3My4yMjl6IE0yMy4wNTIsMzE2Ljg5Ng0KCQkJYzAtMTMuODM3LDExLjI1Ny0yNS4wOTQsMjUuMDk0LTI1LjA5NGgxMTcuMjk4bDU1LjM0Niw1MC4xODhINDguMTQ2QzM0LjMwOSwzNDEuOTksMjMuMDUyLDMzMC43MzQsMjMuMDUyLDMxNi44OTZ6DQoJCQkgTTI0LjAyOCwyNTMuOTUxYzAuNDIyLDAuMTExLDAuODQ3LDAuMjE1LDEuMjc1LDAuMzA5YzcuNDIxLDEuNjM0LDE0LjY4LDguMDAyLDIyLjM2NSwxNC43NDQNCgkJCWMxLjA0NSwwLjkxNywyLjExMywxLjg1NCwzLjIwNiwyLjc5OWgtMy4wODFDMzYuNTQsMjcxLjgwMiwyNy4wMTksMjY0LjI1MiwyNC4wMjgsMjUzLjk1MXogTTMzMi43NTUsMzQzLjcwM2w1Ny4yMzMtNTEuODk5DQoJCQlsNDkuOTA0LDAuNTdsLTgxLjg3MSw3NC4yNEwzMzIuNzU1LDM0My43MDN6IE0zNDAuNjE2LDM3Ny44MjlIMjk1LjEybDE3LjQ2Ny0xNS44MzloMTAuNTYzTDM0MC42MTYsMzc3LjgyOXogTTM2MC4yMTUsMjkxLjgwMg0KCQkJbC04Mi40OTksNzQuODExbC04Mi40OTktNzQuODExSDM2MC4yMTV6IE0zMDAuNjg2LDI3MS44MDJjMC44NDktMC44NDIsMS42NzctMS42NzUsMi40OS0yLjQ5Mw0KCQkJYzkuNTMxLTkuNTg3LDE3LjA1OS0xNy4xNiwzMi44OS0xNy4xNmMxNS44MzIsMCwyMy4zNTksNy41NzMsMzIuODksMTcuMTYyYzAuODEyLDAuODE3LDEuNjQsMS42NSwyLjQ4OSwyLjQ5MUgzMDAuNjg2eg0KCQkJIE0xNDAuNTU2LDI3MS44MDJjMC44NDgtMC44NDEsMS42NzctMS42NzUsMi40ODktMi40OTJjOS41MzEtOS41ODgsMTcuMDU5LTE3LjE2MSwzMi44OS0xNy4xNjENCgkJCWMxNS44MywwLDIzLjM1OCw3LjU3MywzMi44ODgsMTcuMTZjMC44MTMsMC44MTgsMS42NDEsMS42NTEsMi40OSwyLjQ5M0gxNDAuNTU2eiBNNDE2LjQxOCw0MzMuODc1SDk1LjU4Mg0KCQkJYy0yOS41NiwwLTUzLjYwOC0yNC4wNDktNTMuNjA4LTUzLjYwOHYtMTguMjc1aDIwMC44NzJsMTcuNDY3LDE1LjgzOUgxNDUuODk3Yy01LjUyMywwLTEwLDQuNDc3LTEwLDEwczQuNDc3LDEwLDEwLDEwSDQ2Ny4wNw0KCQkJQzQ1OS43ODIsNDE4Ljc4OSw0MzkuODI4LDQzMy44NzUsNDE2LjQxOCw0MzMuODc1eiBNNDcwLjAyNiwzNzcuODI5aC05NC42bDE3LjQ2Ny0xNS44MzloNzcuMTMzVjM3Ny44Mjl6IE00NjMuODUyLDM0MS45OTINCgkJCWgtNDguOTA2bDU0LjYyNC00OS41MzNjMTEuMTM1LDIuNjA0LDE5LjM3NiwxMi42NjUsMTkuMzc2LDI0LjQzOUM0ODguOTQ2LDMzMC43MzQsNDc3LjY4OSwzNDEuOTkyLDQ2My44NTIsMzQxLjk5MnoNCgkJCSBNNDYxLjEyNCwyNzEuODAyYzAuMDg3LTAuMDc2LDAuMTc1LTAuMTUxLDAuMjYyLTAuMjI3YzAuMDM0LTAuMDI5LDAuMDY3LTAuMDU4LDAuMTAxLTAuMDg3YzAuMTE0LTAuMDk5LDAuMjI4LTAuMTk5LDAuMzQyLTAuMjk4DQoJCQljMC44NDgtMC43MzgsMS42ODItMS40NjksMi41MDEtMi4xODdjNC4xMDUtMy42MDEsOC4wODktNy4wOTUsMTIuMDQtOS44MTljMy40NDYtMi4zNzUsNi44NjgtNC4xNjQsMTAuMzI2LTQuOTI1DQoJCQljMC4xMi0wLjAyNywwLjI0LTAuMDU0LDAuMzU5LTAuMDgxYzAuMDEzLTAuMDAzLDAuMDI3LTAuMDA2LDAuMDQtMC4wMWMwLjEwNi0wLjAyNSwwLjIxMi0wLjA1LDAuMzE3LTAuMDc2DQoJCQljMC4wMjItMC4wMDUsMC4wNDQtMC4wMTEsMC4wNjUtMC4wMTZjMC4wOTQtMC4wMjMsMC4xODctMC4wNDYsMC4yOC0wLjA3YzAuMDQ3LTAuMDEyLDAuMDkzLTAuMDI0LDAuMTQtMC4wMzcNCgkJCWMwLjA2NS0wLjAxNywwLjEzMS0wLjAzNCwwLjE5Ni0wLjA1MmMwLjAxNy0wLjAwMywwLjAzMi0wLjAwNywwLjA0OC0wLjAxMmMtMi40MzMsOS4yNzYtMTAuMTI5LDE2LjQ0My0xOS42OTEsMTguMTAyDQoJCQljLTAuNjU1LTAuMTM1LTEuMzMtMC4yMDUtMi4wMTYtMC4yMDVINDYxLjEyNHogTTQ4Mi4zOTUsMjM0LjcyOWMtMS41NTUsMC4zNDMtMy4wNjYsMC43NzMtNC41MzYsMS4yODENCgkJCWMtMTAuMTA5LDMuNDg5LTE4LjMyNywxMC42MDItMjYuMjgzLDE3LjU4Yy0wLjE0NSwwLjEyNy0wLjI4OSwwLjI1NC0wLjQzNCwwLjM4MWMtOS4xNzgsOC4wNTItMTcuOTIzLDE1LjcyMy0yOS4wMzMsMTcuODM0DQoJCQloLTEzLjE0NmMtMTEuMjQ5LTEuOTMtMTcuODMzLTguNTUyLTI1LjgyMy0xNi41OTFjLTEwLjIxMy0xMC4yNzUtMjIuOTIzLTIzLjA2Mi00Ny4wNzQtMjMuMDYyDQoJCQljLTI0LjE1LDAtMzYuODYsMTIuNzg2LTQ3LjA3NCwyMy4wNmMtNy45OTIsOC4wNC0xNC41NzYsMTQuNjYzLTI1LjgyOSwxNi41OTNoLTE0LjMyN2MtMTEuMjUzLTEuOTMtMTcuODM3LTguNTUzLTI1LjgyOS0xNi41OTMNCgkJCWMtMTAuMjEzLTEwLjI3NC0yMi45MjMtMjMuMDYtNDcuMDcyLTIzLjA2Yy0yNC4xNTEsMC0zNi44NjEsMTIuNzg3LTQ3LjA3NCwyMy4wNjJjLTcuOTkxLDguMDM5LTE0LjU3NCwxNC42NjEtMjUuODI0LDE2LjU5MQ0KCQkJaC03LjA2NWMtMTQuMTM0LDAtMjQuMzI1LTguOTM5LTM1LjExMy0xOC40MDRjLTkuMjQ4LTguMTEyLTE4LjgxLTE2LjUwMS0zMS4yNTItMTkuMjQxYy0yLjc3OS0wLjYxMi01LjI3NC0yLjE5My03LjAyNS00LjQ1Mw0KCQkJYy0wLjM1Mi0wLjQ1NC0wLjczOC0wLjg3Mi0xLjE1My0xLjI1MmMtMC45MTQtMS43MjctMS40MjgtMy42ODQtMS40MjgtNS43MjdjLTAuMDAxLTYuNzg4LDUuNTItMTIuMzA5LDEyLjMwNy0xMi4zMDloNDQ3LjM4NA0KCQkJYzYuNzg3LDAsMTIuMzA4LDUuNTIxLDEyLjMwOCwxMi4zMDhDNDkyLDIyOC40NTYsNDg3Ljk2MSwyMzMuNTAzLDQ4Mi4zOTUsMjM0LjcyOXoiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg==" />
+                    <h3 class="services_title">Fast food</h3>
+                    <p class="services_description">We offer Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste perspiciatis corporis, iusto aliquam vero dicta!</p>
+                </div>
+                <div class="services_content">
+                    <img class = "services_img" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgd2lkdGg9IjUxMiIgaGVpZ2h0PSI1MTIiPjxnIGlkPSJPdXRsaW5lIj48cGF0aCBkPSJNOTguMTQ3LDM3Mi44bDYuMTM4LDE0Ljc3N2E2NS43OTQsNjUuNzk0LDAsMCwxLDEzLjQ1LTMuOTYybC0yLjg2MS0xNS43NDJBODEuOTEsODEuOTEsMCwwLDAsOTguMTQ3LDM3Mi44WiIvPjxwYXRoIGQ9Ik01Ni4xMjIsNDEyLjUxM2wxNC40LDYuOTc0YTY1LjYyNiw2NS42MjYsMCwwLDEsMjEuOTkzLTI1LjUzM2wtOS4wMy0xMy4yMDlBODEuNjQ2LDgxLjY0NiwwLDAsMCw1Ni4xMjIsNDEyLjUxM1oiLz48cGF0aCBkPSJNNDk2LDQwOGE1NS45LDU1LjksMCwwLDAtMTQuMjYyLTM3LjMzNWwtMTEuOTIyLDEwLjY3QTM5LjkwNiwzOS45MDYsMCwwLDEsNDc5LjIsNDAwSDQyNGE4LDgsMCwwLDAtNi42NTYsMy41NjJMMzg3LjcxOSw0NDhIMzY4VjQyNGE1Ni4wNjQsNTYuMDY0LDAsMCwxLDU2LTU2aDE2YTM5LjgsMzkuOCwwLDAsMSwyMi4xMTIsNi42NjJsOC44Ni0xMy4zMjRBNTUuNjYxLDU1LjY2MSwwLDAsMCw0NDgsMzUyLjU3MlYzMjhhOCw4LDAsMCwwLTgtOCwzMi4wMzYsMzIuMDM2LDAsMCwxLTMyLTMyVjI1NmgyNGE4LDgsMCwwLDAsOC04VjE5MmE4LDgsMCwwLDAtOC04SDQxNy44OWEzNi45NjEsMzYuOTYxLDAsMCwwLTkuODksMS4zNjNWMTc2YTgsOCwwLDAsMC0xLjc1My01TDM4MC4wNzIsMTM4LjI4YTI4LDI4LDAsMSwwLTExLjc4OSwxMC44NzZMMzkyLDE3OC44MDZWMTg4LjlsLTM1LjE3LTExLjcyM0EyMS41NjMsMjEuNTYzLDAsMCwwLDM0OS42NjcsMTc2SDI4My42OEwyNDUuNywxMzEuNjg5QTIzLjk4NSwyMy45ODUsMCwwLDAsMjU2LDExMnYtMy4wNTZsMTEuNTc4LTUuNzg5YTgsOCwwLDAsMCwzLjA3OC0xMS41OTNsLTEzLjE0LTE5LjcxQTgsOCwwLDAsMCwyNjQsNjRhNDguMDU1LDQ4LjA1NSwwLDAsMC00OC00OGMtMTUuMDY1LDAtMjkuMDE1LDQuMzI3LTM5LjM5LDE1Ljc5MmE0OC4wODksNDguMDg5LDAsMCwwLTEyLjE3MywzNi45ODRsMS43MTIsMTcuMTEyQTI4LjkxMywyOC45MTMsMCwwLDAsMTc2LDEwNC45MzhWMjU2YTMxLjc5MywzMS43OTMsMCwwLDAsNC4zMDUsMTZIMTY4YTIzLjg4NSwyMy44ODUsMCwwLDAtOCwxLjM3NlYxNjhhMjQuMDI3LDI0LjAyNywwLDAsMC0yNC0yNEg0MGEyNC4wMjcsMjQuMDI3LDAsMCwwLTI0LDI0djQwSDMyVjE5MkgxNDR2ODBIMzJWMjI0SDE2djY1LjMyM2ExNS45OTEsMTUuOTkxLDAsMCwwLDEzLjEzOCwxNS43NDJMMTA0LDMxOC42NzdWMzM3LjQ1QTExMy4yOCwxMTMuMjgsMCwwLDAsODQuMjE0LDM0NEg0MGE4LDgsMCwwLDAtOCw4djM3Ljk3MkExMTMuNjI4LDExMy42MjgsMCwwLDAsMTYsNDQ4YTgsOCwwLDAsMCw4LDhINjAuNjcxYTY0LDY0LDAsMCwwLDExOC42NTgsMEgzMTMuODRhNDAuMDYzLDQwLjA2MywwLDAsMCwyOS42LTEzLjA5bDguNTYtOS40MTlWNDU2YTgsOCwwLDAsMCw4LDhoMTYuNTc2QTY0LDY0LDAsMCwwLDQ5Niw0MzJhNjMuNzIsNjMuNzIsMCwwLDAtMi42MDYtMTguMUE3Ljk3LDcuOTcsMCwwLDAsNDk2LDQwOFpNMzQ0LDEyNGExMiwxMiwwLDEsMSwxMiwxMkExMi4wMTMsMTIuMDEzLDAsMCwxLDM0NCwxMjRaTTIyOS41NSw0MDhBMjkuNTg0LDI5LjU4NCwwLDAsMSwyMDAsMzc4LjQ0OWMwLTcuODU0LDEuOTg2LTE1LjIsNy4yMi0yMS4yNDNhMjkuNjM0LDI5LjYzNCwwLDAsMSwxOC4xNDctOS45QTM1LjY3NCwzNS42NzQsMCwwLDAsMjU2LDMxMmE3Ljk3NSw3Ljk3NSwwLDAsMC0yLjM0NS01LjY1OUEyMy45NjEsMjMuOTYxLDAsMCwwLDI1NC42MjQsMjg4aDIxLjcyOGwtMzUuMTA2LDkxLjI3NEExOC41OCwxOC41OCwwLDAsMCwyNDAsMzg2LjE2N1Y0MDhaTTI1NiwzOTJoNDBhOCw4LDAsMCwxLDQuNDM3LDE0LjY1MkExNi4wMjMsMTYuMDIzLDAsMCwxLDI5NC4wNiw0MDhIMjU2Wm02Mi4wODItMS40YTI0LjA3MSwyNC4wNzEsMCwwLDAtMTguMjI2LTE0LjI5bDMzLjEzMS03OS43NjNBNDYuNjUzLDQ2LjY1MywwLDAsMCwyODkuOSwyMzJIMjU2VjIxOS4zMTRsMi4zNDMsMi4zNDNBOCw4LDAsMCwwLDI2NCwyMjRoODEuMzc2QTIzLjk5MiwyMy45OTIsMCwwLDAsMzY4LDI1NmguMDIyQTM5Ljc4OCwzOS43ODgsMCwwLDAsMzYwLDI4MHY2Mi4wNmExNi4xMDgsMTYuMTA4LDAsMCwxLTQuNjg3LDExLjMxM1pNMzY4LDI0MGE4LDgsMCwxLDEsOC04QTguMDA5LDguMDA5LDAsMCwxLDM2OCwyNDBabTU2LTQwdjQwSDQwOFYyMDIuNDkxQTIxLjAzNSwyMS4wMzUsMCwwLDEsNDE3Ljg5LDIwMFptLTMyLDMyYTIzLjk5MiwyMy45OTIsMCwwLDAtMzItMjIuNjI0VjE5NS4xbDMyLDEwLjY2NlpNMjgwLDE5Mmg2NHYxNkgyNjcuMzE0bC00NS42NTctNDUuNjU3LTExLjMxNCwxMS4zMTRMMjQwLDIwMy4zMTNWMjMySDE5MlYxMzZoMzYuMzJsNDUuNjA2LDUzLjIwN0E4LDgsMCwwLDAsMjgwLDE5MlpNMTg4LjQ3Myw0Mi41MjhDMTk1Ljc4NiwzNC40NDcsMjA1LjQ5MSwzMiwyMTYsMzJhMzIuMDU4LDMyLjA1OCwwLDAsMSwzMC45ODgsMjRIMjE2YTgsOCwwLDAsMC04LDhWODNBMTMsMTMsMCwwLDEsMTgyLjA3LDg0LjNsLTEuNzEyLTE3LjExMkEzMS42MzEsMzEuNjMxLDAsMCwxLDE4OC40NzMsNDIuNTI4Wk0xOTUsMTEyYTI5LjAzLDI5LjAzLDAsMCwwLDI5LTI5VjcyaDE2YTcuOTkzLDcuOTkzLDAsMCwwLDEuMzQ0LDQuNDM4TDI1Mi4zMTcsOTIuOWwtNy45LDMuOTQ4QTgsOCwwLDAsMCwyNDAsMTA0djhhOC4wMDksOC4wMDksMCwwLDEtOCw4SDE5MnYtOC4xNTdBMjkuNSwyOS41LDAsMCwwLDE5NSwxMTJabS0zLDE0NHYtOGg5Ny45YTMwLjY1NSwzMC42NTUsMCwwLDEsMjguMzA5LDQyLjQxNEwyODIuNjYsMzc2SDI1OS42NDhsMzUuODE5LTkzLjEyOEE4LDgsMCwwLDAsMjg4LDI3MkgyMDhBMTYuMDE5LDE2LjAxOSwwLDAsMSwxOTIsMjU2Wm0tMjQsMzJoNjRhOCw4LDAsMCwxLDAsMTZIMTY4YTgsOCwwLDAsMSwwLTE2Wk0zMiwxNzZ2LThhOC4wMDksOC4wMDksMCwwLDEsOC04aDk2YTguMDA5LDguMDA5LDAsMCwxLDgsOHY4Wm0wLDExMkgxNDR2MTZIMTEyLjcyMUwzMiwyODkuMzIzWm0yNS44OSw3MkExMTMuMjA5LDExMy4yMDksMCwwLDAsNDgsMzY5LjA1MlYzNjBaTTEyMCw0ODBhNDguMzU1LDQ4LjM1NSwwLDAsMS00MS41NTgtMjRIOTguODU0YTMxLjk0NywzMS45NDcsMCwwLDAsNDIuMjkyLDBoMjAuNDEyQTQ4LjM1NSw0OC4zNTUsMCwwLDEsMTIwLDQ4MFptMjExLjYtNDcuODVBMjQuMDM2LDI0LjAzNiwwLDAsMSwzMTMuODQsNDQwSDMyLjMzMWE5Ny40NCw5Ny40NCwwLDAsMSw3Ni44NzUtODcuMzE2QTI5Ljk2NCwyOS45NjQsMCwwLDEsMTE1LjUsMzUySDE2OFYzMzZIMTIwVjMyMEgyMzguM2ExOS42NzgsMTkuNjc4LDAsMCwxLTE1LjIsMTEuNDcyLDQ1LjY1Nyw0NS42NTcsMCwwLDAtMjcuOTcsMTUuMjUyQzE4Ny4zODksMzU1LjYzOCwxODQsMzY2Ljc5LDE4NCwzNzguNDVBNDUuMzM4LDQ1LjMzOCwwLDAsMCwxOTQuOTI4LDQwOEgxMjh2MTZIMjk0LjA2YTMyLjU3OCwzMi41NzgsMCwwLDAsMjIuNjI3LTkuMzczbDQ5Ljk0LTQ5Ljk0QTMyLjIyNiwzMi4yMjYsMCwwLDAsMzc2LDM0Mi4wNlYyODBhMjQuMDQyLDI0LjA0MiwwLDAsMSwxNi0yMi42MjlWMjg4YTQ4LjA3OCw0OC4wNzgsMCwwLDAsNDAsNDcuMzMzVjM1MmMtNC45NjcsMC0xMC4wNDktLjMtMTQuOTg3LjM0NUE3Mi4xNSw3Mi4xNSwwLDAsMCwzNTMuOTA2LDQwNy42Wk00MjguMjgxLDQxNmguNDA2bDkuNjU2LDkuNjU3QTkuMDEyLDkuMDEyLDAsMCwxLDQ0MC45Nyw0MzJhOC45Nyw4Ljk3LDAsMCwxLTE1LjMxMyw2LjM0M2wtNy4zNjMtNy4zNjJaTTQzMiw0ODBhNDguMjY4LDQ4LjI2OCwwLDAsMS0zNi40NzUtMTYuODMyLDcuOTgxLDcuOTgxLDAsMCwwLDMuMTMxLTIuNzNsNi45MzYtMTAuNEEzMS45ODMsMzEuOTgzLDAsMCwwLDQ2NCw0MzJhMzEuNTg2LDMxLjU4NiwwLDAsMC0zLjA4OS0xMy43Yy0uMzczLS43ODctLjc4NC0xLjU0OS0xLjIxNy0yLjNoMTcuNTcxQTQ4LjAyNSw0OC4wMjUsMCwwLDEsNDMyLDQ4MFoiLz48cmVjdCB4PSI0OCIgeT0iMjA4IiB3aWR0aD0iMTYiIGhlaWdodD0iNDgiLz48L2c+PC9zdmc+Cg==" />
+                    <h3 class="services_title">Delivery</h3>
+                    <p class="services_description">We offer Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste perspiciatis corporis, iusto aliquam vero dicta!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu -->
+        <section class="menu section bd-container" id="menu">
+            <span class="section-subtitle">Special</span>
+            <h2 class="section-title">Menu of the week</h2>
+            <div class="menu_container bd-grid">
+                <div class="menu_content">
+                    <img class="menu_img" src="img/photo-1592578630143-fac65cda7a67.jpg" alt="">
+                    <h3 class="menu_name">Barbecue salad</h3>
+                    <span class="menu_detail">Delicious dish</span>
+                    <span class="menu_price">$34.00</span>
+                    <a href="#" class="button menu_button">
+                        <i class='bx bx-cart' ></i>
+                    </a>
+                </div>
+                <div class="menu_content">
+                    <img class="menu_img" src="img/photo-1592578630143-fac65cda7a67.jpg" alt="">
+                    <h3 class="menu_name">Salad with fish</h3>
+                    <span class="menu_detail">Delicious dish</span>
+                    <span class="menu_price">$64.00</span>
+                    <a href="#" class="button menu_button">
+                        <i class='bx bx-cart' ></i>
+                    </a>
+                </div>
+                <div class="menu_content">
+                    <img class="menu_img" src="img/photo-1592578630143-fac65cda7a67.jpg" alt="">
+                    <h3 class="menu_name">Spanish salad</h3>
+                    <span class="menu_detail">Delicious dish</span>
+                    <span class="menu_price">$54.00</span>
+                    <a href="#" class="button menu_button">
+                        <i class='bx bx-cart' ></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- App -->
+        <section class="app section bd-container">
+            <div class="app_container bd-grid">
+                <div class="app_data">
+                    <span class="section-subtitle  app_initial">App</span>
+                    <h2 class="section-title app_initial">App is avilable</h2>
+                    <p class="app_description">Find our app and download Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, explicabo?</p>
+                    
+                    <div class="app_stores">
+                        <a href="#"><img src="img/download (4).png" alt="" class="app_store"></a>
+                        <a href="#"><img src="img/download-play-store-600x220.png" alt="" class="app_store"></a>
+                    </div>
+                </div>
+                <img src="img/app.jpg" alt="" class="app_img">
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact section bd-container" id="contact">
+            <div class="contact_container bd-grid">
+                <div class="contact_data">
+                    <span class="section-subtitle contact_initial">Let's talk</span>
+                    <h2 class="section-title contact_initial">Contact us</h2>
+                    <p class="contact_description">If you want to reserv Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, quod.</p>
+                </div>
+                <div class="contact_button">
+                    <a href="#" class="button">Let's talk</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Main End -->
+
+
+
+
+    <!-- Footer Start -->
+    <footer class="footer section bd-container">
+        <div class="footer_container bd-grid">
+            <div class="footer_content">
+                <a href="#" class="footer_logo">Tasty</a>
+                <span class="footer_description">Restaurant</span>
+
+                <div>
+                    <a href="#" class="footer_social"><i class='bx bxl-facebook' ></i></a>
+                    <a href="#" class="footer_social"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#" class="footer_social"><i class='bx bxl-twitter' ></i></a>
+                </div>
+            </div>
+
+            <div class="footer_container">
+                <h3 class="footer_title">Services</h3>
+                <ul>
+                    <li><a href="#" class="footer_link">Delivery</a></li>
+                    <li><a href="#" class="footer_link">Pricing</a></li>
+                    <li><a href="#" class="footer_link">Fast food</a></li>
+                    <li><a href="#" class="footer_link">Reserve your spot</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_container">
+                <h3 class="footer_title">Information</h3>
+                <ul>
+                    <li><a href="#" class="footer_link">Event</a></li>
+                    <li><a href="#" class="footer_link">Contact us</a></li>
+                    <li><a href="#" class="footer_link">Privacy policy</a></li>
+                    <li><a href="#" class="footer_link">Terms of services</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_container">
+                <h3 class="footer_title">Address</h3>
+                <ul>
+                    <li><a href="#" class="footer_link">ABC</a></li>
+                    <li><a href="#" class="footer_link">fiver #999</a></li>
+                    <li><a href="#" class="footer_link">00-***-90</a></li>
+                    <li><a href="#" class="footer_link">lorem@mail.com</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="footer_copy">&#169; 2021 Country. All right reserved.</p>
+    </footer>
+    <!-- Footer End -->
+
+
+
+
+    <!-- Scroll revel -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Add Javascript  -->
+    <script src = "java.js"></script>
+</body>
+</html>
